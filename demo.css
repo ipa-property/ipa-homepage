@@ -298,6 +298,11 @@
   .bsvc--ic h3 { font-size: 26px; }
 }
 
+/* Services and reviews sit close together */
+#promoted { padding-bottom: 64px; }
+#reviews { padding-top: 0; }
+@media (max-width: 720px) { #promoted { padding-bottom: 48px; } }
+
 /* ===== Rounded corners everywhere ===== */
 .type, .card, .post, .testi { border-radius: 20px; overflow: hidden; }
 .tcard { border-radius: 14px; }
