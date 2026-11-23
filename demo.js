@@ -69,7 +69,7 @@
     e.target.classList.add("is-revealed");
     io.unobserve(e.target);
   }), { threshold: 0.15, rootMargin: "0px 0px -6% 0px" });
-  [".sec-head > *", ".types__list", ".dest", ".card", ".about__lead > *", ".about__statement", ".about__stats li", ".usp-head > *", ".usp li", ".promo__main", ".promo__side", ".post", ".testi__intro > *"].forEach((sel) =>
+  [".sec-head > *", ".types__list", ".dest", ".card", ".about__lead > *", ".about__statement", ".about__stats li", ".usp-head > *", ".usp li", ".bsvc", ".post", ".testi__intro > *"].forEach((sel) =>
     document.querySelectorAll(sel).forEach((el, i) => {
       el.dataset.reveal = "up";
       el.style.setProperty("--d", `${(i % 8) * 80}ms`);
